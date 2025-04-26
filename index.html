@@ -1,58 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF_8" />
-    <meta name="viewport" content="width = device-width , initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="firstDiv">
-      <h1 style="background-color: aquamarine">Hello World</h1>
-      <h1 style="background-color: rgb(13, 29, 24)">Hello World</h1>
-      <h1 style="background-color: rgb(85, 119, 107)">Hello World</h1>
-      <h1 style="background-color: rgb(2, 22, 16)">Hello World</h1>
-      <h1 style="background-color: rgb(43, 224, 163)">Hello World</h1>
-      <h1 style="background-color: rgb(46, 50, 49)">Hello World</h1>
-    </div>
+    <div class="login-container">
+      <div class="login-box">
+        <label>Username</label>
+        <div class="input-group">
+          <input type="text" placeholder="Type your UserName" />
+        </div>
 
-    <div class="secondDiv">Second Independent Div</div>
-    <div class="thirdDiv">Third Independent Div</div>
-    <div class="fourthDiv">By Default Fourth Independent Div</div>
-    <div class="fifthDiv">Fifth Independent Div</div>
+        <label>Password</label>
+        <div class="input-group">
+          <input type="password" placeholder="Type your Password" />
+          <a href="#" class="forgot">Forgot Password ? </a>
+        </div>
 
-    <div class="sixthDiv">
-      <label for="">Name</label><input placeholder="Write " type="" required />
+        <button class="login-btn">Login</button>
 
-      <label for="">Name</label><input placeholder="Write " type="" required />
+        <p class="or-text">Or Sign Up Using</p>
 
-      <label for="">Name</label><input placeholder="Write " type="" required />
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-google"></i>
+        </div>
 
-      <div>
-        <label for="">Name</label
-        ><input placeholder="Write " type="" required />
-      </div>
-      <div>
-        <label for="">Name</label
-        ><input placeholder="Write " type="" required />
-      </div>
-      <div class="">
-        <label for="">Name</label
-        ><input placeholder="Write " type="" required />
-      </div>
-
-      <div class="seventhDiv">
-        <form class="seventhForm">
-          <label for="">ok</label
-          ><input placeholder="Write " type="" required />
-
-          <label for="">ok</label
-          ><input placeholder="Write " type="" required />
-
-          <label for="">ok</label
-          ><input placeholder="Write " type="" required />
-        </form>
+        <p class="signup-text">Have not account yet ?</p>
+        <a href="#" class="signup-link">SIGN UP</a>
       </div>
     </div>
   </body>
