@@ -160,3 +160,103 @@ body {
   font-weight: bold;
   color: #8e2de2;
 }
+
+/* 
+Second Html css code */
+
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #9b59b6, #e91e63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+}
+
+.tab-buttons .active {
+  background: linear-gradient(to right, #8e44ad, #e91e63);
+  color: white;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-group a {
+  font-size: 0.8rem;
+  color: #e91e63;
+  text-align: right;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 0.7rem;
+  background: linear-gradient(to right, #8e44ad, #e91e63);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.signup-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.signup-text a {
+  color: #e91e63;
+  text-decoration: none;
+  font-weight: bold;
+}
